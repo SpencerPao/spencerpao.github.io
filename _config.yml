@@ -233,19 +233,7 @@ scholar:
 
 imagemagick:
   enabled: false
-  widths:
-    - 480
-    - 800
-    - 1400
-  input_directories:
-    - assets/img/
-  input_formats:
-    - ".jpg"
-    - ".jpeg"
-    - ".png"
-    - ".tiff"
-  output_formats:
-    webp: "-quality 75%"
+
 
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams
