@@ -9,15 +9,19 @@ profile:
   image: prof_pic.jpg
   address: >
     <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>1121 E 4th St.</p>
+    <p>Tucson, AZ 85721</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Computer Science graduate from the University of Arizona with a perfect 4.0 GPA, specializing in software development, probabilistic modeling and machine learning.
+
+As a full-stack developer, I have extensive experience with AWS, Nginx, Docker, React, and Django. During my internship at CoreTechs Consulting Inc., I managed end-to-end website development, created intelligent bots, and deployed applications using advanced cloud services.
+
+My machine learning expertise includes developing GPT-based models at the University of Arizona's Institute for Computation and Data-Enabled Insight. Additionally, I have research projects at the ML4AI LAB and IVI LAB, developing probabilistic graphical models (Dynamic Bayesian Network) to predict human beliefs in search and rescue missions and computationally understand human-beings. Additionally, I contributed to the ToMCAT dataset, exploring team dynamics in urban search and rescue missions using brain scans, physiological signals, and behavioral responses.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
