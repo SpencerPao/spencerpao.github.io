@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: layout
 title: Publications
 permalink: /_pages/publications/
@@ -8,4 +8,4 @@ permalink: /_pages/publications/
 
 {% bibliography %}
 
-</div>
+</div> -->
