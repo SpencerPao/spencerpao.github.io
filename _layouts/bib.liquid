@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/publications/">Publications</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>{{ page.title }}</h1>
+      <section>
+        {{ content }}
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
+    </footer>
+  </body>
+</html>
