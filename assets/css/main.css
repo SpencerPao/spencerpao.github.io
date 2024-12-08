@@ -17,6 +17,43 @@
     padding-top:12px;
     display:block}
 
+    .audio-player {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      font-family: Arial, sans-serif;
+    }
+    .play-pause {
+      cursor: pointer;
+      margin-right: 10px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+    }
+    .progress-bar {
+      flex: 1;
+      height: 5px;
+      background: #e0e0e0;
+      margin-right: 10px;
+      position: relative;
+    }
+    .progress {
+      height: 5px;
+      background: #007BFF;
+      width: 0%;
+    }
+    .audio-title {
+      font-size: 16px;
+      margin-left: 10px;
+    }
+
 /* Style for the publication badge */
 .badge {
     background-color: #910187; /* Light grey background color, change to your preferred color */
